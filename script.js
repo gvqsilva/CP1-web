@@ -29,7 +29,7 @@ utilizar a função if (se), que diz se é true ou false, sendo
 true ele executa a função com os operadores; se for false ele
 não ira executar a função. Quem executará a função é o 
 else (senão)
-*//*
+*/
 let valor = 10;
 if(valor>7){
     document.write("Dez é maior que sete!!! <br>");
@@ -48,7 +48,7 @@ a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso
 ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
 utilizando os operadores e as funções já conhecidas, sendo elas: if(se), else(senão) & if else(senão se);
 realizamos uma formula para medir o IMC.
-*//*
+*/
 let peso = 75;
 let altura = 1.90;
 
@@ -68,7 +68,7 @@ document.write(imc);
 /*4) Esse é um programa que diz a faixa etaria da pessoa
 de acordo com a idade dela, sendo <=12 uma criança, >=13 um
 adolescente, entre >=19 e <=60 um aulto senão é um idoso.
-*//*
+*/
 let idade = 61;
 
 if(idade <= 12){
@@ -99,4 +99,26 @@ if(usuario == "admin" && senha == 1234){
 }
 else{
     document.write("Falha de autenticação <br>")
+}
+
+/*6) Esse programa serve para calcular a média de 7 notas e
+indicar se o aluno foi aprovado ou reprovado, sendo usado o
+6 como media. Programa feito utilizando a divisão das 7
+notas e com as variaveis if e else.
+*/
+let nota1 = 6.6;
+let nota2 = 7.5;
+let nota3 = 6;
+let nota4 = 6;
+let nota5 = 5.5;
+let nota6 = 9.3;
+let nota7 = 0;
+
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) /7;
+
+if(media >= 6){
+    document.write("Aprovado")
+}
+else{
+    document.write("Reprovado")
 }
