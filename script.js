@@ -29,7 +29,7 @@ utilizar a função if (se), que diz se é true ou false, sendo
 true ele executa a função com os operadores; se for false ele
 não ira executar a função. Quem executará a função é o 
 else (senão)
-*/
+*//*
 let valor = 10;
 if(valor>7){
     document.write("Dez é maior que sete!!! <br>");
@@ -48,7 +48,7 @@ a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso
 ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
 utilizando os operadores e as funções já conhecidas, sendo elas: if(se), else(senão) & if else(senão se);
 realizamos uma formula para medir o IMC.
-*/
+*//*
 let peso = 75;
 let altura = 1.90;
 
@@ -68,7 +68,7 @@ document.write(imc);
 /*4) Esse é um programa que diz a faixa etaria da pessoa
 de acordo com a idade dela, sendo <=12 uma criança, >=13 um
 adolescente, entre >=19 e <=60 um aulto senão é um idoso.
-*/
+*//*
 let idade = 61;
 
 if(idade <= 12){
@@ -82,4 +82,21 @@ else if(idade >= 19 && idade <= 60){
 }
 else{
     document.write("<br> Idoso <br>")
+}
+
+/*5) Esse programa criado é responsavel pela autenticação do
+usuario. Se o nome de login estiver certo e a senha estiver
+correta vai aparecer a mensagem "Login realizado com sucesso",
+caso a senha esteja incorreta vai aparecer a mensagem
+"Falha de autenticação". Esse programa foi feito utilizando o
+if e o else.
+*/
+let usuario = "admin";
+let senha = 123490;
+
+if(usuario == "admin" && senha == 1234){
+    document.write("Login realizado com sucesso <br>")
+}
+else{
+    document.write("Falha de autenticação <br>")
 }
