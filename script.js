@@ -42,5 +42,28 @@ if(valor=10){
 if(valor != 10){
     document.write("O valor não é igual a dez!!! <br>");
 }else{
-    document.write("O valor é igual a dez!")
+    document.write("O valor é igual a dez! <br>")
 }
+
+/*3 - Esse é programa que calcula o (IMC) de uma pessoa, exibindo 
+a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso 
+ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
+utilizando os operadores e as funções já conhecidas, realizamos uma 
+formula para medir o IMC.
+*/
+
+let peso = 75;
+let altura = 1.90;
+
+let imc = peso / (altura *altura);
+
+if(imc < 18.5){
+    document.write("Abaixo do peso, IMC é de ")
+}
+else if(imc >= 18.5 && imc <= 24.9 ){
+    document.write("Peso ideal, seu IMC é de ")
+}
+else{
+    document.write("Acima do peso, IMC é de ")
+}
+document.write(imc);"<br>"
