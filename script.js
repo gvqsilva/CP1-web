@@ -1,5 +1,4 @@
-/*
-Para a variável ter o valor indefinido é 
+/*1) Para a variável ter o valor indefinido é 
 nescessário ter a instrução let + algum texto escrito ao lado 
 e um ; no final para encerrar o comando
 */
@@ -25,8 +24,7 @@ let texto = "Isso é apenas um teste"
 console.log(texto);
 
 
-/*
-Para utilizar os operadores (==, !=, >=) no JS é nescessário 
+/*2) Para utilizar os operadores (==, !=, >=) no JS é nescessário 
 utilizar a função if (se), que diz se é true ou false, sendo
 true ele executa a função com os operadores; se for false ele
 não ira executar a função. Quem executará a função é o 
@@ -45,13 +43,12 @@ if(valor != 10){
     document.write("O valor é igual a dez! <br>")
 }
 
-/*3 - Esse é programa que calcula o (IMC) de uma pessoa, exibindo 
+/*3) Esse é programa que calcula o (IMC) de uma pessoa, exibindo 
 a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso 
 ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
-utilizando os operadores e as funções já conhecidas, realizamos uma 
-formula para medir o IMC.
+utilizando os operadores e as funções já conhecidas, sendo elas: if(se), else(senão) & if else(senão se);
+realizamos uma formula para medir o IMC.
 */
-
 let peso = 75;
 let altura = 1.90;
 
@@ -66,4 +63,23 @@ else if(imc >= 18.5 && imc <= 24.9 ){
 else{
     document.write("Acima do peso, IMC é de ")
 }
-document.write(imc);"<br>"
+document.write(imc);
+
+/*4) Esse é um programa que diz a faixa etaria da pessoa
+de acordo com a idade dela, sendo <=12 uma criança, >=13 um
+adolescente, entre >=19 e <=60 um aulto senão é um idoso.
+*/
+let idade = 61;
+
+if(idade <= 12){
+    document.write("<br> Criança <br>")
+}
+else if(idade >= 13 && idade<= 18){
+    document.write("<br> Adolescente <br>")
+}
+else if(idade >= 19 && idade <= 60){
+    document.write("<br> Adulto <br>")
+}
+else{
+    document.write("<br> Idoso <br>")
+}
