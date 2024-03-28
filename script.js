@@ -1,7 +1,7 @@
 /*1) Para a variável ter o valor indefinido é 
 nescessário ter a instrução let + algum texto escrito ao lado 
 e um ; no final para encerrar o comando
-*//*
+*/
 let nome;
 console.log(nome)
 //Utilize a tag console para poder mostrar resultado no inspecionar do google
@@ -10,7 +10,7 @@ console.log(nome)
 Para criar uma variável vazia é nescessário 
 utilizar a função let + algum texto escrito o sinal de =
 ao lado e a variável de null terminando a linha com ;
-*//*
+*/
 let disciplina = null;
 console.log(disciplina)
 
@@ -19,7 +19,7 @@ Já para uma variável com valor é nescessário
 seguir os mesmos passos dos outros comando e depois
 do sinal de = abrir as aspas  duplas ("") e escrever
 algum texto e encerrar com ;
-*//*
+*/
 let texto = "Isso é apenas um teste"
 console.log(texto);
 
@@ -29,7 +29,7 @@ utilizar a função if (se), que diz se é true ou false, sendo
 true ele executa a função com os operadores; se for false ele
 não ira executar a função. Quem executará a função é o 
 else (senão)
-*//*
+*/
 let valor = 10;
 if(valor>7){
     document.write("Dez é maior que sete!!! <br>");
@@ -48,7 +48,7 @@ a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso
 ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
 utilizando os operadores e as funções já conhecidas, sendo elas: if(se), else(senão) & if else(senão se);
 realizamos uma formula para medir o IMC.
-*//*
+*/
 let peso = 75;
 let altura = 1.90;
 
@@ -68,7 +68,7 @@ document.write(imc);
 /*4) Esse é um programa que diz a faixa etaria da pessoa
 de acordo com a idade dela, sendo <=12 uma criança, >=13 um
 adolescente, entre >=19 e <=60 um aulto senão é um idoso.
-*//*
+*/
 let idade = 61;
 
 if(idade <= 12){
@@ -90,7 +90,7 @@ correta vai aparecer a mensagem "Login realizado com sucesso",
 caso a senha esteja incorreta vai aparecer a mensagem
 "Falha de autenticação". Esse programa foi feito utilizando o
 if e o else.
-*//*
+*/
 let usuario = "admin";
 let senha = 123490;
 
@@ -105,7 +105,7 @@ else{
 indicar se o aluno foi aprovado ou reprovado, sendo usado o
 6 como media. Programa feito utilizando a divisão das 7
 notas e com as variaveis if e else.
-*//*
+*/
 let nota1 = 6.6;
 let nota2 = 7.5;
 let nota3 = 6;
@@ -125,7 +125,7 @@ else{
 
 /*7) Programa que mostra na tela o nome, idade, Curso 
 e ano.
-*//*
+*/
 let nome1 = "Guilherme";
 document.write(nome1, "<br>");
 let idade1 = "20 anos";
@@ -134,7 +134,6 @@ let curso1 = "Engenharia de Software";
 document.write(curso1, "<br>");
 let ano1 = 2024;
 document.write(ano1, "<br>");
-*/
 
 //8) Programa de busca
 let texto2 ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
@@ -145,3 +144,10 @@ console.log(texto2.indexOf("ciência"));
 console.log(texto2.slice(27,34));
 console.log(texto2.indexOf("métodos"));
 console.log(texto2.slice(92,99));
+
+//9) string --> float
+let numero3 = "123.456";
+console.log(numero3);
+let num = parseFloat(numero3)
+let verificar = typeof num
+console.log(verificar);
