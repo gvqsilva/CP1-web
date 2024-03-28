@@ -1,7 +1,7 @@
 /*1) Para a variável ter o valor indefinido é 
 nescessário ter a instrução let + algum texto escrito ao lado 
 e um ; no final para encerrar o comando
-*/
+*//*
 let nome;
 console.log(nome)
 //Utilize a tag console para poder mostrar resultado no inspecionar do google
@@ -10,7 +10,7 @@ console.log(nome)
 Para criar uma variável vazia é nescessário 
 utilizar a função let + algum texto escrito o sinal de =
 ao lado e a variável de null terminando a linha com ;
-*/
+*//*
 let disciplina = null;
 console.log(disciplina)
 
@@ -19,7 +19,7 @@ Já para uma variável com valor é nescessário
 seguir os mesmos passos dos outros comando e depois
 do sinal de = abrir as aspas  duplas ("") e escrever
 algum texto e encerrar com ;
-*/
+*//*
 let texto = "Isso é apenas um teste"
 console.log(texto);
 
@@ -125,7 +125,7 @@ else{
 
 /*7) Programa que mostra na tela o nome, idade, Curso 
 e ano.
-*/
+*//*
 let nome1 = "Guilherme";
 document.write(nome1, "<br>");
 let idade1 = "20 anos";
@@ -134,3 +134,14 @@ let curso1 = "Engenharia de Software";
 document.write(curso1, "<br>");
 let ano1 = 2024;
 document.write(ano1, "<br>");
+*/
+
+//8) Programa de busca
+let texto2 ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
+
+console.log(texto2.indexOf("em"));
+console.log(texto2.lastIndexOf("ia"));
+console.log(texto2.indexOf("ciência"));
+console.log(texto2.slice(27,34));
+console.log(texto2.indexOf("métodos"));
+console.log(texto2.slice(92,99));
