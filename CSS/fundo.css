@@ -1,0 +1,5 @@
+/*Logo da FIAP para o fundo da página*/
+
+body{
+    background-image: url('fiap-logo.jpg');
+}
