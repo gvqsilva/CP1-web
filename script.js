@@ -1,6 +1,6 @@
 /*1) Para a variável ter o valor indefinido é 
 nescessário ter a instrução let + algum texto escrito ao lado 
-e um ; no final para encerrar o comando
+e um ; no final para encerrar o comando - Feito por Gabriel Vasquez
 */
 let nome;
 console.log(nome)
@@ -28,7 +28,7 @@ console.log(texto);
 utilizar a função if (se), que diz se é true ou false, sendo
 true ele executa a função com os operadores; se for false ele
 não ira executar a função. Quem executará a função é o 
-else (senão)
+else (senão) - Feito por Gabriel Vasquez
 */
 let valor = 10;
 if(valor>7){
@@ -47,7 +47,7 @@ if(valor != 10){
 a mensagem se ela está abaixo do peso, abaixo 18,5; se está no peso 
 ideal, entre 18,5 e 24,9; ou se está acima do peso, acima de 24,9.
 utilizando os operadores e as funções já conhecidas, sendo elas: if(se), else(senão) & if else(senão se);
-realizamos uma formula para medir o IMC.
+realizamos uma formula para medir o IMC. - Feito por Augusto
 */
 let peso = 75;
 let altura = 1.90;
@@ -67,7 +67,7 @@ document.write(imc);
 
 /*4) Esse é um programa que diz a faixa etaria da pessoa
 de acordo com a idade dela, sendo <=12 uma criança, >=13 um
-adolescente, entre >=19 e <=60 um aulto senão é um idoso.
+adolescente, entre >=19 e <=60 um aulto senão é um idoso. - Feito por Augusto
 */
 let idade = 61;
 
@@ -89,7 +89,7 @@ usuario. Se o nome de login estiver certo e a senha estiver
 correta vai aparecer a mensagem "Login realizado com sucesso",
 caso a senha esteja incorreta vai aparecer a mensagem
 "Falha de autenticação". Esse programa foi feito utilizando o
-if e o else.
+if e o else. - Feito por Augusto
 */
 let usuario = "admin";
 let senha = 123490;
@@ -104,7 +104,7 @@ else{
 /*6) Esse programa serve para calcular a média de 7 notas e
 indicar se o aluno foi aprovado ou reprovado, sendo usado o
 6 como media. Programa feito utilizando a divisão das 7
-notas e com as variaveis if e else.
+notas e com as variaveis if e else. - Feito por Guilherme
 */
 let nota1 = 6.6;
 let nota2 = 7.5;
@@ -124,7 +124,7 @@ else{
 }
 
 /*7) Programa que mostra na tela o nome, idade, Curso 
-e ano.
+e ano. - Feito por Guilherme
 */
 let nome1 = "Guilherme";
 document.write(nome1, "<br>");
@@ -135,7 +135,7 @@ document.write(curso1, "<br>");
 let ano1 = 2024;
 document.write(ano1, "<br>");
 
-//8) Programa de busca
+//8) Programa de busca - Feito por Guilherme
 let texto2 ="Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
 
 console.log(texto2.indexOf("em"));
@@ -145,7 +145,7 @@ console.log(texto2.slice(27,34));
 console.log(texto2.indexOf("métodos"));
 console.log(texto2.slice(92,99));
 
-//9) string --> float
+//9) string --> float - Feito por Gabriel Vasquez
 let numero3 = "123.456";
 console.log(numero3);
 let num = parseFloat(numero3)
